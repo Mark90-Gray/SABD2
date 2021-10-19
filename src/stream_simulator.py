@@ -5,7 +5,7 @@ import time
 
 if __name__ == '__main__':
 
-    producer = KafkaProducer(bootstrap_servers='localhost:9092')
+    producer = KafkaProducer(bootstrap_servers='')
     # producer = KafkaProducer(bootstrap_servers='xxx:9092')
     filename = 'dataset/bus-breakdown-and-delays.csv'
     K = 1 / 8000  # fattore di compressione
