@@ -8,8 +8,8 @@ import sys
 
 
 if __name__ == '__main__':
-	URL = "http://localhost:8081/jobs/3ee81a3c30956e4488d7a15b6509ff0c/vertices/306d8342cb5b2ad8b53f1be57f65bee8/subtasks/metrics?get=numRecordsInPerSecond"
-	URL1 = "http://localhost:8081/jobs/3ee81a3c30956e4488d7a15b6509ff0c/vertices/306d8342cb5b2ad8b53f1be57f65bee8/subtasks/metrics?get=numRecordsOutPerSecond"
+	URL = ""
+	URL1 = ""
 	
 	name_file=str(sys.argv[1])
 	size_window=str(sys.argv[2])	
