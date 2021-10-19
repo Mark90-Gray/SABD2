@@ -19,8 +19,8 @@ public class StreamingFromKafkaMetrics {
         env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
 
         Properties properties = new Properties();
-        properties.setProperty("bootstrap.servers", "broker:29092");
-        //properties.setProperty("bootstrap.servers", "localhost:9092");
+        properties.setProperty("bootstrap.servers", "broker:");
+        
         properties.setProperty("group.id", "flink");
 
         DataStream<NYBusLog> stream =
